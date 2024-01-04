@@ -1,12 +1,12 @@
 :root {
   --orange-color: #da722c;
-  --blue-color: #057ada;
-  --white-color: #e8f7fb;
-  --white-color: #e8f7fb;
+  /* --blue-color: #057ada; */
+  --light-color: #e8f7fb;
+  /* --white-color: #e8f7fb; */
   --dark-blue-color: #023047;
-  --dark-blue-color: #e8f7fb;
+  /* --dark-white-color: #e8f7fb; */
   --dark-color: #070917;
-  --perple-color: #6f7dfb;
+  /* --perple-color: #6f7dfb; */
 }
 *,
 *::after,
@@ -17,4 +17,18 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", "sans-sarif";
+}
+.btn {
+  padding: 16px 32px;
+  border-radius: 24px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+}
+.btn.dark {
+  background: var(--dark-blue-color);
+}
+.btn.light {
+  background: var(--orange-color);
 }
